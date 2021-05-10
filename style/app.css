@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  input[type="button"]
+  {
+      background-color: bisque;
+      color: black;
+      border:solid 2px;
+      width: 100%;
+  }
