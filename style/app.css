@@ -19,6 +19,13 @@
       color: black;
       border:solid 2px;
       width: 100%;
+      background: rgba(0, 0, 0, 0.5); 
+      border: 1px solid #111; 
+      padding: 20px;
+      color: #EEE; 
+      border-radius: 5px; 
+      font-size: 22px; 
+      cursor: pointer;
   }
   #result {
     width: 100%;
@@ -31,4 +38,17 @@
     padding-left: 10px;
     font-size: 4rem;
   }
-  
+  .calc-box {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #111;
+    border-radius: 5px;
+  }
+  #clr-button {
+    font-size: 22px;
+    color:green;
+  }
+  input[type=button]:hover{
+    color: white;
+    background-color:#252525;
+  }

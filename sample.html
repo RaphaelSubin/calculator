@@ -18,7 +18,7 @@
         }
 
         function clr(){
-            document.getElementById("result").value = ""
+            document.getElementById("result").value=""
         }
     </script>
 </head>
@@ -26,7 +26,7 @@
     <div class="calc-box">
         <table border="1" align="center">
             <tr>
-                <td colspan="4"><input type="text" id="result" style="text-align: right;"></td>
+                <td colspan="4"><input type="text" placeholder="0" id="result" style="text-align: right;"></td>
             </tr>
             <tr>
                 <td><input type="button" value="1" onclick="dis('1')"/></td>
@@ -47,7 +47,7 @@
                 <td><input type="button" value="*" onclick="dis('*')"/></td>
             </tr>
             <tr>
-                <td><input type="button" value="c" onclick="clr()"/></td>
+                <td><input type="button" id="clr-button" value="C" onclick="clr()"/></td>
                 <td><input type="button" value="0" onclick="dis('0')"/></td>
                 <td><input type="button" value="=" onclick="answer()"/></td>
                 <td><input type="button" value="/" onclick="dis('/')"/></td>
